@@ -29,10 +29,20 @@ This project demonstrates agentic automation using Python, Playwright, and LLMs.
 	```
 
 ## Usage
-Edit `scripts/agentic_automation_script1.py` to define your automation task. Example:
-```python
-task = "Navigate to YouTube, search for 'lofi hip hop', and play the first video."
+
+The main script now loads the automation task from `test_cases/tasks.json`. To update the task, edit the `description` field of the first object in the `tasks` array in that file. Example `tasks.json`:
+
+```json
+{
+	"tasks": [
+		{
+			"TaskName": "Set up environment for Playwright automation",
+			"description": "Navigate to YouTube, search for 'lofi hip hop', and play the first video."
+		}
+	]
+}
 ```
+
 Run the script:
 ```powershell
 python scripts/agentic_automation_script1.py

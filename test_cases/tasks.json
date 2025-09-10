@@ -1,0 +1,18 @@
+
+{
+    "tasks": [
+       {
+        "TaskName": "Set up environment for Playwright automation",
+        "description": "Open google.com. Search for AI tools. Give me list of AI tools."
+       },
+       {
+        "TaskName": "Set up environment for Playwright automation",
+        "description": "Create a virtual environment, install necessary packages, and set up environment variables."
+       },
+       {
+        "TaskName": "Set up environment for Playwright automation",
+        "description": "Create a virtual environment, install necessary packages, and set up environment variables."
+       }
+    ]
+}
+
