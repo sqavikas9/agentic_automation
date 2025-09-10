@@ -1,0 +1,7 @@
+# Add your project dependencies here, one per line.
+# Example:
+# playwright
+# pytest
+browser-use
+playwright
+# --- IGNORE ---
